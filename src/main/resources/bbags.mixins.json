@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "priority": 1500,
+  "package": "uwu.lopyluna.bbags.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "bbags.refmap.json",
+  "mixins": [
+    "AccessorRangedAttribute",
+    "MixinBitStorageAlignFix"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}
