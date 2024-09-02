@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "bbags:item/rare_lootbag"
+    },
+    "overrides": [
+        {
+            "predicate": { "bbags:xmas_textures": 1 },
+            "model": "bbags:item/rare_lootbag_xmas"
+        },
+        {
+            "predicate": { "bbags:easter_textures": 1 },
+            "model": "bbags:item/rare_lootbag_easter"
+        }
+    ]
+}

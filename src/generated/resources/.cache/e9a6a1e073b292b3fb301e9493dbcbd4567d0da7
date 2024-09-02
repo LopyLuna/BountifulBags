@@ -1,0 +1,15 @@
+// 1.20.1	2024-09-01T22:08:51.5747323	Registrate Provider for bbags [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+2b5b465546215e6cbf7cc88424c4d7ec5a22be03 assets/bbags/lang/en_ud.json
+40762406baad070c62cfa3d08160f549d6fc1cd8 assets/bbags/lang/en_us.json
+4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_bridge_chamber.json
+4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_chamber.json
+4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_stable_chamber.json
+4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_treasure_chamber.json
+7d9f1c4b6eafcd20c9419ab920dd89a0d5ed5fc8 assets/bbags/models/item/buried_treasure_crate.json
+2308a1ae57190070692f2032c67fc605df298a7a assets/bbags/models/item/end_city_treasure_lootbag.json
+7d9f1c4b6eafcd20c9419ab920dd89a0d5ed5fc8 assets/bbags/models/item/fishing_junk_crate.json
+7d9f1c4b6eafcd20c9419ab920dd89a0d5ed5fc8 assets/bbags/models/item/fishing_treasure_crate.json
+2ceef92da4066cb919f2e6141e5bfb158f5177a8 assets/bbags/models/item/halloween_lootbag.json
+81c6101b1654e8beb5a91ebf1ae6e6ff6b200cd5 assets/bbags/models/item/present_box.json
+82d73936e40770ff59f9913f081a5674d63f97e4 assets/bbags/models/item/shipwreck_supply_lootbag.json
+b9d6d14e9e6955d05cc924aa4d84be5161a2dd31 assets/bbags/models/item/shipwreck_treasure_lootbag.json
