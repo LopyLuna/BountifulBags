@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:obsidian",
+    "minecraft:experience_bottle",
+    "minecraft:golden_apple",
+    "minecraft:glowstone",
+    "minecraft:torchflower_seeds",
+    "minecraft:ender_pearl",
+    "minecraft:raw_gold_block",
+    "minecraft:raw_iron_block",
+    "minecraft:quartz",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_mutton",
+    "minecraft:melon",
+    "minecraft:ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:golden_carrot",
+    "minecraft:compass",
+    "minecraft:clock",
+    "minecraft:bell"
+  ]
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-01T22:08:51.5747323	Registrate Provider for bbags [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+// 1.20.1	2024-09-03T13:08:35.3368251	Registrate Provider for bbags [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
 2b5b465546215e6cbf7cc88424c4d7ec5a22be03 assets/bbags/lang/en_ud.json
 40762406baad070c62cfa3d08160f549d6fc1cd8 assets/bbags/lang/en_us.json
 4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_bridge_chamber.json
@@ -13,3 +13,24 @@
 81c6101b1654e8beb5a91ebf1ae6e6ff6b200cd5 assets/bbags/models/item/present_box.json
 82d73936e40770ff59f9913f081a5674d63f97e4 assets/bbags/models/item/shipwreck_supply_lootbag.json
 b9d6d14e9e6955d05cc924aa4d84be5161a2dd31 assets/bbags/models/item/shipwreck_treasure_lootbag.json
+91c8c3bbe5bddd40e30fc22f87c685da9ce3a690 data/bbags/tags/items/loot_bags/common/high.json
+4c2cdbbc1c9bfc78d06544d62367436e3225cd6b data/bbags/tags/items/loot_bags/common/low.json
+789d338646ad9fedba379408fc3729536c333aac data/bbags/tags/items/loot_bags/common/med.json
+4f0fa7c43679f05ef81fc4891060ca3a493ffb9d data/bbags/tags/items/loot_bags/epic/high.json
+52f68660bc8138bcb15d90e6ee63a698181dd538 data/bbags/tags/items/loot_bags/epic/low.json
+caf0e01fcf4c06504ba24425a51fcf909127ece2 data/bbags/tags/items/loot_bags/epic/med.json
+a609984b3e04299587efaa39b0820e34c8327b77 data/bbags/tags/items/loot_bags/halloween/high.json
+bcd9bd0102fde93168c8184bdcbf4ce6c8bdf7ff data/bbags/tags/items/loot_bags/halloween/low.json
+885fdc63a8c65f5175c5fb4d8f46c45855fd09bb data/bbags/tags/items/loot_bags/halloween/med.json
+c9b18636d1f8ce36b0436ece11435264b3ef38da data/bbags/tags/items/loot_bags/legendary/high.json
+04871c8bee979023a56ae697f78ec9d53ffdd929 data/bbags/tags/items/loot_bags/legendary/low.json
+4fe8f136acea9d4a9916e8d0e18d536c665c6a79 data/bbags/tags/items/loot_bags/legendary/med.json
+5f2dc76561008810bc0bda767a7c06eac171afac data/bbags/tags/items/loot_bags/rare/high.json
+99deb60a03e804c7ab93883ede7efc40ce852739 data/bbags/tags/items/loot_bags/rare/low.json
+85d93f5cd608dcf67b0bc1c26e15ca965c9e17ca data/bbags/tags/items/loot_bags/rare/med.json
+1cd751d1f346464169801018f7c67339286b8165 data/bbags/tags/items/loot_bags/uncommon/high.json
+dbbe65416e666b49fae1109f973a0896659073ba data/bbags/tags/items/loot_bags/uncommon/low.json
+eee754b7a7f5cb5a04ed4490b4f69ce700220d7b data/bbags/tags/items/loot_bags/uncommon/med.json
+cca8751bb28449a99ed16c6beeecc8b09538fe0c data/bbags/tags/items/loot_bags/xmas/high.json
+54919880786fd0efc331590b81679d9038b379a8 data/bbags/tags/items/loot_bags/xmas/low.json
+157d59a43416c98c771f0f6ffa0ffe6832b0ec53 data/bbags/tags/items/loot_bags/xmas/med.json

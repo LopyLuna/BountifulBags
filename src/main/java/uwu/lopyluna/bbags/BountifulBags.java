@@ -6,6 +6,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +16,7 @@ import org.slf4j.Logger;
 import uwu.lopyluna.bbags.content.item.BagItem;
 import uwu.lopyluna.bbags.event.CommonEventBags;
 import uwu.lopyluna.bbags.foundation.BountifulBagsRegistrate;
+import uwu.lopyluna.bbags.infrastructure.Datagen;
 import uwu.lopyluna.bbags.registry.BlocksBB;
 import uwu.lopyluna.bbags.registry.CreativeTabsBB;
 import uwu.lopyluna.bbags.registry.ItemsBB;
@@ -50,9 +52,15 @@ public class BountifulBags {
     public BountifulBags() {
         bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
+
+
         ItemsBB.register();
         BlocksBB.register();
         CreativeTabsBB.register(bus);
+
+        modEventBus.addListener(EventPriority.LOWEST, Datagen::gatherData);
 
         MinecraftForge.EVENT_BUS.register(new CommonEventBags());
         MinecraftForge.EVENT_BUS.register(this);

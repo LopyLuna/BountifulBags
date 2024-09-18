@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/low",
+          "name": "bbags:loot_bags/epic/low",
           "expand": true,
           "weight": 25,
           "functions": [
@@ -16,37 +16,37 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/med",
+          "name": "bbags:loot_bags/epic/med",
           "expand": true,
           "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 3,
+                "max": 6
               }
             }
           ]
         },
         {
           "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/high",
+          "name": "bbags:loot_bags/epic/high",
           "expand": true,
           "weight": 75,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 6
+                "min": 4,
+                "max": 8
               }
             }
           ]

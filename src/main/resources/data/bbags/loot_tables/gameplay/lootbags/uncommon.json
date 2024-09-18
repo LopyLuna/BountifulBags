@@ -2,30 +2,15 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 4
+        "min": 2,
+        "max": 6
       },
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/low",
+          "name": "bbags:loot_bags/uncommon/low",
           "expand": true,
           "weight": 25,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/med",
-          "expand": true,
-          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -38,15 +23,30 @@
         },
         {
           "type": "minecraft:tag",
-          "name": "bbags:loot_bags/legendary/high",
+          "name": "bbags:loot_bags/uncommon/med",
+          "expand": true,
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "bbags:loot_bags/uncommon/high",
           "expand": true,
           "weight": 75,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 6
+                "min": 6,
+                "max": 12
               }
             }
           ]

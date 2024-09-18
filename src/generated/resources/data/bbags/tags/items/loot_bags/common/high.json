@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:acacia_planks",
+    "minecraft:birch_planks",
+    "minecraft:spruce_planks",
+    "minecraft:cherry_planks",
+    "minecraft:oak_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:jungle_planks",
+    "minecraft:torch",
+    "minecraft:bone_meal",
+    "minecraft:beetroot_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:wheat_seeds",
+    "minecraft:stick",
+    "minecraft:potato",
+    "minecraft:carrot",
+    "minecraft:wheat",
+    "minecraft:cobblestone"
+  ]
+}

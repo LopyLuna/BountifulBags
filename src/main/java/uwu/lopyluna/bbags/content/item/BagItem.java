@@ -36,7 +36,7 @@ public class BagItem extends Item {
     ResourceLocation RARE = new ResourceLocation(MOD_ID, "gameplay/lootbags/rare");
     ResourceLocation EPIC = new ResourceLocation(MOD_ID, "gameplay/lootbags/epic");
     ResourceLocation LEGENDARY = new ResourceLocation(MOD_ID, "gameplay/lootbags/legendary");
-    ResourceLocation PRESENT = new ResourceLocation(MOD_ID, "gameplay/lootbags/present");
+    ResourceLocation PRESENT = new ResourceLocation(MOD_ID, "gameplay/lootbags/xmas");
     ResourceLocation HALLOWEEN = new ResourceLocation(MOD_ID, "gameplay/lootbags/halloween");
 
     ResourceLocation providedLootTable;

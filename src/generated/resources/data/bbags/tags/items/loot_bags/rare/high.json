@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:ink_sac",
+    "minecraft:redstone",
+    "minecraft:lapis_lazuli",
+    "minecraft:gold_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:flint",
+    "minecraft:fire_charge",
+    "minecraft:warped_planks",
+    "minecraft:crimson_planks",
+    "minecraft:gunpowder",
+    "minecraft:iron_ingot",
+    "minecraft:copper_block",
+    "minecraft:bread",
+    "minecraft:mushroom_stem",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_mutton",
+    "minecraft:melon_slice",
+    "minecraft:cocoa_beans"
+  ]
+}
