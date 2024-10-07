@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-03T13:08:35.3368251	Registrate Provider for bbags [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+// 1.20.1	2024-10-07T13:37:22.1216085	Registrate Provider for bbags [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
 2b5b465546215e6cbf7cc88424c4d7ec5a22be03 assets/bbags/lang/en_ud.json
 40762406baad070c62cfa3d08160f549d6fc1cd8 assets/bbags/lang/en_us.json
 4e903d2c4966f2123499478498657393d49ec2f9 assets/bbags/models/item/bastion_bridge_chamber.json
@@ -25,12 +25,13 @@ bcd9bd0102fde93168c8184bdcbf4ce6c8bdf7ff data/bbags/tags/items/loot_bags/hallowe
 c9b18636d1f8ce36b0436ece11435264b3ef38da data/bbags/tags/items/loot_bags/legendary/high.json
 04871c8bee979023a56ae697f78ec9d53ffdd929 data/bbags/tags/items/loot_bags/legendary/low.json
 4fe8f136acea9d4a9916e8d0e18d536c665c6a79 data/bbags/tags/items/loot_bags/legendary/med.json
-5f2dc76561008810bc0bda767a7c06eac171afac data/bbags/tags/items/loot_bags/rare/high.json
+670b375ded7e2a85f2545f2fbe4d0e00b8684c91 data/bbags/tags/items/loot_bags/rare/high.json
 99deb60a03e804c7ab93883ede7efc40ce852739 data/bbags/tags/items/loot_bags/rare/low.json
 85d93f5cd608dcf67b0bc1c26e15ca965c9e17ca data/bbags/tags/items/loot_bags/rare/med.json
 1cd751d1f346464169801018f7c67339286b8165 data/bbags/tags/items/loot_bags/uncommon/high.json
 dbbe65416e666b49fae1109f973a0896659073ba data/bbags/tags/items/loot_bags/uncommon/low.json
 eee754b7a7f5cb5a04ed4490b4f69ce700220d7b data/bbags/tags/items/loot_bags/uncommon/med.json
 cca8751bb28449a99ed16c6beeecc8b09538fe0c data/bbags/tags/items/loot_bags/xmas/high.json
-54919880786fd0efc331590b81679d9038b379a8 data/bbags/tags/items/loot_bags/xmas/low.json
+921336cc2f8e7dd8bc117ab94d2ab59471b4200c data/bbags/tags/items/loot_bags/xmas/low.json
 157d59a43416c98c771f0f6ffa0ffe6832b0ec53 data/bbags/tags/items/loot_bags/xmas/med.json
+f42302b0b0201501511f085acc353dc9e3242c7e data/bbags/tags/items/loot_bags/xmas/ultra.json

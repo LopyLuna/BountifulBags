@@ -239,13 +239,14 @@ public class RegistrateTags {
                 .add(Items.EXPERIENCE_BOTTLE)
                 .add(Items.ENDER_PEARL)
         ;
-        prov.tag(modTag("loot_bags/xmas/low"))   //Very Rare Loot
-                .add(Items.BLUE_ICE)
+        prov.tag(modTag("loot_bags/xmas/ultra"))   //Ultra Rare Loot
                 .add(Items.ENCHANTED_GOLDEN_APPLE)
-                .add(Items.GOLDEN_APPLE)
-                .add(Items.DIAMOND)
                 .add(Items.DIAMOND_BLOCK)
                 .add(Items.NETHERITE_INGOT)
+        ;prov.tag(modTag("loot_bags/xmas/low"))   //Very Rare Loot
+                .add(Items.BLUE_ICE)
+                .add(Items.GOLDEN_APPLE)
+                .add(Items.DIAMOND)
         ;prov.tag(modTag("loot_bags/xmas/med"))  //Uncommon Loot
                 .add(Items.CAKE)
                 .add(Items.DIAMOND)
@@ -335,7 +336,7 @@ public class RegistrateTags {
 
         @SafeVarargs
         public final CreateTagAppender<T> add(T... entries) {
-            Stream.<T>of(entries)
+            Stream.of(entries)
                     .map(this.keyExtractor)
                     .forEach(this::add);
             return this;

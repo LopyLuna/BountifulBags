@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
@@ -24,6 +25,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import static uwu.lopyluna.bbags.BountifulBags.*;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -110,10 +112,6 @@ public class BagItem extends Item {
         if (TYPE == BagType.PRESENT || isXmasValid()) {
             pEntity.playSound(SoundEvents.PAINTING_PLACE, 0.6F, 0.50F + pEntity.level().getRandom().nextFloat() * 0.4F);
             pEntity.playSound(SoundEvents.PAINTING_BREAK, 0.8F, 0.65F + pEntity.level().getRandom().nextFloat() * 0.4F);
-        } else if (isHalloweenMonth) {
-            pEntity.playSound(SoundEvents.GHAST_AMBIENT, 0.4F, 0.4F + pEntity.level().getRandom().nextFloat() * 0.4F);
-            pEntity.playSound(SoundEvents.SOUL_ESCAPE, 1.25F, 0.8F + pEntity.level().getRandom().nextFloat() * 0.4F);
-            pEntity.playSound(SoundEvents.BUNDLE_DROP_CONTENTS, 0.8F, 0.4F + pEntity.level().getRandom().nextFloat() * 0.4F);
         } else if (TYPE == BagType.NORMAL_CRATE) {
             pEntity.playSound(SoundEvents.ZOMBIE_BREAK_WOODEN_DOOR, 0.3F, 0.8F + pEntity.level().getRandom().nextFloat() * 0.4F);
         } else if (isEasterValid()) {
@@ -124,6 +122,18 @@ public class BagItem extends Item {
         } else {
             pEntity.playSound(SoundEvents.BUNDLE_DROP_CONTENTS, 0.8F, 0.8F + pEntity.level().getRandom().nextFloat() * 0.4F);
         }
+        if (isHalloweenMonth) {
+            if (TYPE == BagType.HALLOWEEN) {
+                if (pEntity.level().getRandom().nextIntBetweenInclusive(1, 50) == 1) {
+                    pEntity.playSound(halloweenScarySounds().get(pEntity.level().getRandom().nextIntBetweenInclusive(1, halloweenScarySounds().size())), 0.6F + pEntity.level().getRandom().nextFloat() * 0.4F, 0.6F + pEntity.level().getRandom().nextFloat() * 0.4F);
+                }
+            } else {
+                if (pEntity.level().getRandom().nextIntBetweenInclusive(1, 100) == 1) {
+                    pEntity.playSound(halloweenScarySounds().get(pEntity.level().getRandom().nextIntBetweenInclusive(1, halloweenScarySounds().size())), 0.6F + pEntity.level().getRandom().nextFloat() * 0.4F, 0.6F + pEntity.level().getRandom().nextFloat() * 0.4F);
+                }
+            }
+            pEntity.playSound(SoundEvents.SOUL_ESCAPE, 1.25F, 0.8F + pEntity.level().getRandom().nextFloat() * 0.4F);
+        }
         pEntity.playSound(SoundEvents.ITEM_PICKUP, 0.4F, 0.6F + pEntity.level().getRandom().nextFloat() * 0.4F);
     }
 
@@ -132,6 +142,10 @@ public class BagItem extends Item {
             case COMMON, UNCOMMON, RARE, EPIC, LEGENDARY -> true;
             case PRESENT, HALLOWEEN, DEBUG, NORMAL, NORMAL_CRATE, NORMAL_CHAMBER -> false;
         };
+    }
+
+    public List<SoundEvent> halloweenScarySounds() {
+        return new ArrayList<>(List.of(SoundEvents.RAVAGER_ROAR, SoundEvents.RAVAGER_CELEBRATE, SoundEvents.RAVAGER_STUNNED, SoundEvents.TRIDENT_THUNDER, SoundEvents.GOAT_HORN_SOUND_VARIANTS.get(7).get(), SoundEvents.GOAT_HORN_SOUND_VARIANTS.get(6).get(), SoundEvents.GOAT_HORN_SOUND_VARIANTS.get(4).get(), SoundEvents.RAID_HORN.get(), SoundEvents.TOTEM_USE, SoundEvents.ENDER_DRAGON_GROWL, SoundEvents.END_GATEWAY_SPAWN, SoundEvents.END_PORTAL_SPAWN, SoundEvents.WANDERING_TRADER_DISAPPEARED, SoundEvents.WANDERING_TRADER_AMBIENT, SoundEvents.WANDERING_TRADER_REAPPEARED, SoundEvents.LLAMA_ANGRY, SoundEvents.GHAST_WARN, SoundEvents.GHAST_SCREAM, SoundEvents.ILLUSIONER_PREPARE_BLINDNESS, SoundEvents.EVOKER_PREPARE_ATTACK, SoundEvents.EVOKER_PREPARE_WOLOLO, SoundEvents.ENDERMAN_STARE, SoundEvents.ENDERMAN_SCREAM, SoundEvents.WITHER_SPAWN, SoundEvents.ZOMBIE_BREAK_WOODEN_DOOR, SoundEvents.ZOMBIE_VILLAGER_CURE, SoundEvents.WITCH_CELEBRATE, SoundEvents.WARDEN_EMERGE, SoundEvents.CREEPER_PRIMED, SoundEvents.LIGHTNING_BOLT_THUNDER, SoundEvents.GHAST_AMBIENT, SoundEvents.SOUL_ESCAPE, SoundEvents.AMBIENT_CAVE.get(), SoundEvents.AMBIENT_UNDERWATER_LOOP_ADDITIONS_RARE, SoundEvents.AMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE));
     }
 
     public ResourceLocation getLootTable() {
