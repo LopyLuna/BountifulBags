@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_common": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bbags:common_loot_bag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bbags:crafting/uncommon_loot_bag_from_common"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_common"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bbags:crafting/uncommon_loot_bag_from_common"
+    ]
+  }
+}

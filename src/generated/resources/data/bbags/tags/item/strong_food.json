@@ -1,0 +1,34 @@
+{
+  "values": [
+    "minecraft:golden_carrot",
+    "minecraft:golden_apple",
+    "minecraft:pumpkin_pie",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_beef",
+    "minecraft:rabbit_stew",
+    {
+      "id": "create:sweet_roll",
+      "required": false
+    },
+    {
+      "id": "create:chocolate_glazed_berries",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:beef_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon_and_eggs",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pasta_with_meatballs",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:steak_and_potatoes",
+      "required": false
+    }
+  ]
+}

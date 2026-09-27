@@ -1,0 +1,64 @@
+{
+  "values": [
+    "minecraft:charcoal",
+    "minecraft:cobblestone",
+    "minecraft:stone",
+    "minecraft:copper_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:flint",
+    "minecraft:string",
+    {
+      "id": "create:andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "create:zinc_ingot",
+      "required": false
+    },
+    {
+      "id": "create:copper_sheet",
+      "required": false
+    },
+    {
+      "id": "create:iron_sheet",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tin",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lead",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/zinc",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tarnished_gold",
+      "required": false
+    }
+  ]
+}

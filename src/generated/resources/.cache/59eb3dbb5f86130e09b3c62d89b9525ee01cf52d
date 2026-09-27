@@ -1,0 +1,6 @@
+// 1.21.1	2026-09-27T11:26:26.8256476	Loot Tables
+ff9d760dd56b44271043bb0df566d2bdf20d33bf data/bbags/loot_table/gameplay/lootbags/common.json
+b10e75a5c52b4668b9dd6c253bccd0e5135e8bc6 data/bbags/loot_table/gameplay/lootbags/epic.json
+31acb666211300b9866f741ec33b51ac48d394cb data/bbags/loot_table/gameplay/lootbags/legendary.json
+c800c6acce21adbda8fac939f1103b650d4ef702 data/bbags/loot_table/gameplay/lootbags/rare.json
+7e952111be77f8e0ee437e3ba8e92629d7042767 data/bbags/loot_table/gameplay/lootbags/uncommon.json

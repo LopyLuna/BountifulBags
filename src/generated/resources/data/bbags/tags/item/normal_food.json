@@ -1,0 +1,47 @@
+{
+  "values": [
+    "minecraft:apple",
+    "minecraft:baked_potato",
+    "minecraft:bread",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_rabbit",
+    "minecraft:honey_bottle",
+    "minecraft:beetroot_soup",
+    "minecraft:cooked_chicken",
+    "minecraft:mushroom_stew",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    {
+      "id": "create:bar_of_chocolate",
+      "required": false
+    },
+    {
+      "id": "create:honeyed_apple",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:barbecue_stick",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:hamburger",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon_sandwich",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_sandwich",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:mutton_wrap",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:dumplings",
+      "required": false
+    }
+  ]
+}

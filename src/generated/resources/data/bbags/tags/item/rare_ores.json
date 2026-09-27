@@ -1,0 +1,51 @@
+{
+  "values": [
+    "minecraft:amethyst_shard",
+    "minecraft:redstone",
+    "minecraft:raw_gold",
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:quartz",
+    "minecraft:glowstone_dust",
+    {
+      "id": "create:rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/silver",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/tungsten",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/thorium",
+      "required": false
+    },
+    {
+      "id": "#c:gems/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:gems/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:gems/peridot",
+      "required": false
+    }
+  ]
+}

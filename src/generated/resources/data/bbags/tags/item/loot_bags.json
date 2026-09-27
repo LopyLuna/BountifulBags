@@ -1,0 +1,9 @@
+{
+  "values": [
+    "bbags:common_loot_bag",
+    "bbags:uncommon_loot_bag",
+    "bbags:rare_loot_bag",
+    "bbags:epic_loot_bag",
+    "bbags:legendary_loot_bag"
+  ]
+}

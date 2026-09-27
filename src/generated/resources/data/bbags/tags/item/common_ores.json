@@ -1,0 +1,33 @@
+{
+  "values": [
+    "minecraft:coal",
+    "minecraft:raw_copper",
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+    "minecraft:lapis_lazuli",
+    {
+      "id": "create:raw_zinc",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/tin",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/lead",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/zinc",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/aluminum",
+      "required": false
+    }
+  ]
+}

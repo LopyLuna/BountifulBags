@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:tropical_fish",
+    "minecraft:dried_kelp",
+    "minecraft:potato",
+    "minecraft:beetroot",
+    "minecraft:cookie",
+    "minecraft:glow_berries",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:sweet_berries",
+    "minecraft:melon_slice",
+    "minecraft:mutton",
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:rabbit",
+    "minecraft:carrot",
+    {
+      "id": "farmersdelight:fried_egg",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:sweet_berry_cookie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_cookie",
+      "required": false
+    }
+  ]
+}

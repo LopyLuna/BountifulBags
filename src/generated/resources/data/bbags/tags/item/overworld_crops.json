@@ -1,0 +1,29 @@
+{
+  "values": [
+    "minecraft:wheat",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:beetroot",
+    "minecraft:pumpkin",
+    "minecraft:melon",
+    "minecraft:glow_berries",
+    "minecraft:sweet_berries",
+    "minecraft:cocoa_beans",
+    {
+      "id": "farmersdelight:cabbage",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:tomato",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    }
+  ]
+}
